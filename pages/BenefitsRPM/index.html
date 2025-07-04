@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Emmitec Health </title>
+    <link rel="shortcut icon" href="../../assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../components/style-components.css">
+    <link rel="stylesheet" href="responsive/resMobile.css">
+    <link rel="stylesheet" href="responsive/resTablets.css">
+    <link rel="stylesheet" href="responsive/resDesktop.css">
+    <script src="https://unpkg.com/i18next@23.4.6/i18next.min.js"></script>
+    <script src="https://unpkg.com/i18next-http-backend@2.2.0/i18nextHttpBackend.min.js"></script>
+</head>
+
+<body>
+    <!-- * HEADER -->
+    <div id="header-placeholder"></div>
+    <script>
+        fetch('../../components/header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header-placeholder').innerHTML = data;
+            });
+    </script>
+    <section class="body-container">
+        <div class="n-container">
+            <div class="first-section">
+                <div class="header-container-left">
+                    <h1 data-i18n="title">Benefícios do RPM (Monitoramento Remoto de Pacientes)</h1>
+                </div>
+                <div class="sub-container-right">
+                    <p data-i18n="sub-container-right">
+                        O <strong>Monitoramento Remoto de Pacientes (RPM)</strong> está no centro da
+                        nossa missão de tornar os cuidados de saúde mais acessíveis,
+                        eficientes e proativos. Ao oferecer <strong>
+                            uma visão clara e em
+                            tempo real da saúde dos pacientes,
+                        </strong> médicos e enfermeiros
+                        podem tomar decisões baseadas em dados, melhorando os
+                        resultados clínicos e otimizando os recursos. Com o <strong>RPM,</strong>
+                        os pacientes recebem cuidados de qualidade no conforto
+                        de suas casas, reduzindo a pressão sobre hospitais e
+                        clínicas. É o próximo passo na evolução da saúde,
+                        conectando pessoas e profissionais de forma eficiente,
+                        independentemente da distância ou condição física.</p>
+
+                    <div class="recipient-btn">
+                        <button data-i18n="learn_more" id="header-first-btn">
+                            Saiba Mais
+                        </button>
+                        <a href="https://wa.me/5567992175517?text=Olá,%20tudo%20bem?%20Me%20interessei%20pela%20Emmitec%20e%20gostaria%20de%20saber%20mais!
+" target="_blank"
+                            rel="noopener noreferrer">
+                            <button data-i18n="schedule_visit" id="header-second-btn">
+                                Solicite uma demonstração
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="n-container image">
+                <img class="imagem-banner" src="assets/first-image.jpg" alt="">
+            </div>
+        </div>
+
+        <section class="monitoramento-remoto">
+            <div class="n-container">
+                <div class="container-person">
+                    <div id="learn_more_red" class="sub-container-mid">
+                        <h2 data-i18n="h2_sub-container-mid">Como Funciona o Monitoramento Remoto de Pacientes</h2>
+                        <p data-i18n="p_sub-container-mid">O <strong>Monitoramento Remoto de Pacientes (RPM)</strong> é
+                            uma tecnologia
+                            revolucionária que conecta pacientes e provedores de saúde de forma contínua e eficiente.
+                            Com o
+                            <strong>RPM,</strong> é possível monitorar dados de saúde em tempo real, garantindo um
+                            cuidado personalizado e
+                            proativo, independentemente da localização do paciente. Essa abordagem transforma a
+                            experiência
+                            de saúde, promovendo mais segurança,
+                            agilidade e qualidade no atendimento.
+                        </p>
+                    </div>
+                </div>
+                <div class="cols-4">
+                    <div class="sub-col">
+                        <div class="sub-col-items-left">
+                            <img class="vector-box" src="../../assets/utils/vector-box.png" alt="">
+                            <h3 data-i18n="h3-sub_col">Decisão do Provedor</h3>
+                            <p data-i18n="p-sub_col">Provedores de saúde escolhem a <strong>EmmiTec</strong> para
+                                implementar
+                                <strong>soluções de RPM personalizadas,</strong> eficazes e alinhadas
+                                às necessidades específicas de seus pacientes.
+                            </p>
+                        </div>
+                        <div class="sub-col-items-left">
+                            <img class="vector-box" src="../../assets/utils/vector-box.png" alt="">
+                            <h3 data-i18n="h3-2-sub_col">Coleta de Dados Inteligente</h3>
+                            <p data-i18n="p-2-sub_col">Pacientes utilizam <strong>dispositivos conectados</strong> para
+                                monitorar sua saúde de qualquer lugar, enviando dados automaticamente para análise pelos
+                                provedores.</p>
+                        </div>
+                    </div>
+                    <div class="sub-col">
+                        <img id="mid-img" src="assets/image-col-mid.jpg" alt="">
+                    </div>
+                    <div class="sub-col">
+                        <div class="sub-col-items-right">
+                            <img class="vector-box" src="../../assets/utils/vector-box.png" alt="">
+                            <h3 data-i18n="h3-3-sub_col">Engajamento Contínuo</h3>
+                            <p data-i18n="p-3-sub_col">O <strong>RPM</strong> promove uma relação de longo prazo entre
+                                pacientes e provedores, fortalecendo o acompanhamento e <strong>melhorando os
+                                    resultados</strong> de saúde.</p>
+                        </div>
+                        <div class="sub-col-items-right">
+                            <img class="vector-box" src="../../assets/utils/vector-box.png" alt="">
+                            <h3 data-i18n="h3-4-sub_col">Intervenções Proativas</h3>
+                            <p data-i18n="p-4-sub_col">Alertas inteligentes em <strong>tempo real</strong> permitem
+                                ações rápidas e assertivas, prevenindo complicações e <strong>garantindo a
+                                    segurança</strong> dos pacientes.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="financeiras">
+            <div class="n-container">
+                <div class="financeiras-content">
+                    <div class="financeiras-container-left">
+                        <h2 data-i18n="h2-financial">Considerações Financeiras para
+                            Cuidados Sustentáveis</h2>
+                        <p data-i18n="p-financial">Na EmmiTec, acreditamos que a melhoria dos cuidados com os pacientes
+                            deve ser financeiramente
+                            viável.
+                            Nossas soluções visam reduzir complicações e readmissões hospitalares,
+                            garantindo um atendimento de qualidade.</p>
+                        <div class="sub-division-text">
+                            <div class="left-box">
+                                <h3 data-i18n="h3-financial">Eficiência Financeira</h3>
+                                <p data-i18n="p-2-financial">Reduzimos custos e melhoramos resultados com intervenções
+                                    oportunas e monitoramento
+                                    contínuo.</p>
+                            </div>
+                            <div class="right-box">
+                                <h3 data-i18n="h3-2-financial">Investimento <br> Sustentável</h3>
+                                <p>Promova a viabilidade econômica da sua prática com nossos serviços de RPM.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="financeiras-container-right last-image">
+                        <img class="image-thrid-section" id="financeiras-img" src="assets/image-thrid-section.jpg"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="agendamento">
+            <div class="n-container">
+                <div class="agendamento-content">
+                    <div class="sub-container-left">
+                        <h2 data-i18n="h2-schedule">Agende sua demonstração personalizada</h2>
+                        <p data-i18n="p-schedule">Invista em um futuro de cuidados personalizados para cada paciente, em
+                            seus próprios termos. </p>
+                        <div class="recipient-btn">
+                            <!-- <button  data-i18n="learn_more" id="header-first-btn">
+                            Saiba Mais
+                        </button> -->
+                            <a href="https://wa.me/5567992175517?text=Olá,%20tudo%20bem?%20Me%20interessei%20pela%20Emmitec%20e%20gostaria%20de%20saber%20mais!
+" target="_blank"
+                                rel="noopener noreferrer">
+                                <button data-i18n="schedule_visit" id="header-second-btn">
+                                    Solicite uma demonstração
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="sub-container-right last-image">
+                        <img class="image-fourth-section" src="assets/image-fourth-section.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- *FOOTER -->
+    <div id="footer-placeholder"></div>
+    <script>
+        fetch('../../components/footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-placeholder').innerHTML = data;
+            });
+    </script>
+    <script src="../../components/header.js"></script>
+    <script src="../../services/i18n.js"></script>
+    <script>
+        document.getElementById('header-first-btn').addEventListener('click', function () {
+            const target = document.getElementById('learn_more_red');
+            if (target) {
+                target.scrollIntoView({ behavior: 'smooth' });
+            }
+        });
+    </script>
+
+</body>
+
+</html>

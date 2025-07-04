@@ -1,0 +1,42 @@
+@media (min-width: 769px) and (max-width: 1023px) {
+    
+    .body-container {
+        padding: 40px 20px;
+    }
+
+    .n-container {
+            padding: 52px 0px;
+    }
+
+    .connect-left h1 {
+        font-size: 3em;
+    }
+
+    .contact-top h2,
+    .locate-top h2,
+    .second-locate-left h2 {
+        font-size: 2em;
+    }
+
+    .contact-top p,
+    .locate-top p,
+    .second-locate-left p {
+        font-size: 1em;
+    }
+
+    .contact-bottom button {
+      margin-top: 16px;
+    }    
+
+    .contact-item {
+        font-size: 1em;
+    }
+
+    .locate-item a,
+    .locate-item p,
+    .second-locate-item a,
+    .second-locate-item p {
+        font-size: 0.9em;
+    }
+
+}

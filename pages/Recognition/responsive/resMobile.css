@@ -1,0 +1,378 @@
+@media (max-width: 793px) {
+
+
+    .body-container {
+      padding: 40px 10px;
+    }
+
+
+  .n-container {
+    padding: 64px 0px;
+}
+
+    .recognition-header-content {
+      flex-direction: column;
+      text-align: center;
+    }
+
+  .hamburger {
+    display: flex;
+    align-items: flex-start;
+  }
+
+
+
+  .banner-home-index {
+    padding: 40px 20px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+  }
+
+  .banner-content-index {
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .banner-content-index h2 {
+    font-size: 2em;
+  }
+
+  .banner-content-index p {
+    font-size: 0.95rem;
+  }
+
+  .buttons-index {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .btn-index {
+    width: 100%;
+    text-align: center;
+  }
+
+  .btn-login {
+    width: 100px;
+    height: 34px;
+    padding: 5px 15px;
+  }
+
+  .language-selector {
+    font-size: 14px;
+    gap: 4px;
+  }
+
+
+        /* Header */
+
+    .r-header-content-left {
+      border: 1px solid #11D3D3;
+      border-radius: 10px;
+      padding: 15px;
+    }
+
+    .class-image {
+        height: 524px;
+    }
+
+  .r-header-content-left h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+
+   .r-header-content-left p {
+    font-size: 0.9em;
+    text-align: center;
+   }
+
+        /* Monitoramento remoto */
+
+    .sub-container-mid h2 {
+        font-size: 1.8em;
+    }
+
+    .sub-container-mid p {
+        font-size: 0.9em;
+    }
+
+     .sub-col-items-left,
+     .sub-col-items-right {
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+        padding: 25px;
+        border-radius: 10px;
+    }
+    
+    .sub-col-items h3 {
+        font-size: 1.2em;
+    }
+
+    .sub-col-items p {
+        font-size: 0.9em;
+    }
+
+    .sub-col {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      justify-content: center;
+    }
+
+    .cols-4 {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #mid-img {
+      height: 540px;
+      max-width: 100%;
+    }
+ 
+ /*agendamento*/
+
+.agendamento-content {
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.sub-container-left h2 {
+  font-size: 1.8em;
+  text-align: center;
+}
+
+.sub-container-left p {
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.sub-container-left {
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.recipient-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.last-image {
+  aspect-ratio: 0;
+}
+
+}
+/* ...existing code... */
+
+/* MOBILE: Setas e dots em linha abaixo do carrossel */
+
+/* ...existing code... */
+@media (max-width: 768px) {
+  .carousel {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    padding: 0 0 56px 0; /* espaço para controles */
+    position: relative;
+    overflow: visible;
+  }
+  .carousel-track {
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+    width: 100%;
+    min-height: 260px;
+    position: relative;
+  }
+  .carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 24px 16px 16px 16px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    border-radius: 12px;
+    transition: opacity 0.3s;
+  }
+  .carousel-item.active {
+    display: flex;
+  }
+  .carousel-stars {
+    font-size: 1.5em;
+    margin-bottom: 8px;
+    text-align: center;
+    width: 100%;
+  }
+  .carousel blockquote,
+  .carousel-item blockquote {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #333;
+    margin: 0 0 12px 0;
+    text-align: center;
+  }
+  .carousel-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    margin-top: 8px;
+  }
+
+  .carousel-profile strong, span {
+    width: 100%;
+  }
+
+  
+
+  .carousel-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 4px;
+  }
+  .carousel-logo {
+    width: 80px;
+    height: auto;
+    margin-top: 4px;
+  }
+
+  .logo-container {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100%;
+  }
+  .carousel-profile.car1 {
+    gap: 10px;
+  }
+
+  .carousel-btn {
+    background: #fff;
+    border: 1px solid;
+    background-color: transparent;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 4px rgba(17,211,211,0.08);
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .carousel-btn img {
+    width: 16px;
+    height: 16px;
+  }
+
+  /* Esconde controles duplicados do desktop */
+  .carousel > .carousel-btn.prev,
+  .carousel > .carousel-btn.next,
+  .carousel > .carousel-indicators {
+    display: none !important;
+  }
+.carousel-btn.prev{
+left: 40px;
+}
+.carousel-btn.next{
+right: 40px;}
+
+  /* Controles mobile centralizados abaixo */
+  .carousel-controls-mobile {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 12px;
+    width: 100%;
+    z-index: 2;
+    background: transparent;
+    padding: 10px;
+  }
+  .carousel-controls-mobile .carousel-btn {
+    margin: 0;
+  }
+  .carousel-indicators {
+    display: flex !important;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+  }
+  .carousel-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #D9D9D9;
+    border-radius: 50%;
+    transition: background 0.2s;
+  }
+  .carousel-dot.active {
+    background: #4C666D;
+  }
+  /* Ajustes de espaçamento */
+  .carousel .teste-1,
+  .carousel .sub-container-carousel {
+    text-align: center ;
+    font-size: 0.9em;
+    color: #222;
+    margin: 0;
+    padding: 0;
+  }
+    .carousel {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 0 56px 0;
+    overflow: visible;
+  }
+ .carousel-track {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    min-height: 260px;
+    position: relative;
+  }
+  .carousel-item {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 24px 12px 16px 12px;
+    margin: 0 auto;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    border-radius: 12px;
+    transition: opacity 0.3s;
+    word-break: break-word;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+  }
+  .carousel-item.active {
+    display: flex;
+    position: relative;
+  }
+}
+  

@@ -1,0 +1,197 @@
+@media (max-width: 768px) {
+  
+    .body-container {
+        padding: 40px 10px;
+    }
+
+    .n-container {
+    padding: 42px 0px;
+    }
+
+    .first-section {
+      flex-wrap: wrap;
+      border: 1px solid #11D3D3;
+      padding: 15px;
+      border-radius: 10px;
+    }
+  
+  .header-content {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .hamburger {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  
+  .banner-home-index {
+    padding: 40px 20px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+  }
+
+  .banner-content-index {
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .banner-content-index h2 {
+    font-size: 2em;
+  }
+
+  .banner-content-index p {
+    font-size: 0.95rem;
+  }
+
+  .buttons-index {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .btn-index {
+    width: 100%;
+    text-align: center;
+  }
+
+ 
+
+  .header .header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .header-logo img {
+    height: 28px;
+  }
+
+  .header-actions {
+    width: 100%;
+    margin-top: 8px;
+    padding: 16px;
+    justify-content: space-between;
+  }
+
+  .btn-login {
+    width: 100px;
+    height: 34px;
+    padding: 5px 15px;
+  }
+
+  .language-selector {
+    font-size: 14px;
+    gap: 4px;
+  }
+
+  /*PRIMEIRA SEÇÃO*/
+
+      .header-container-left h1 {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .sub-container-right p {
+        font-size: 0.9em;
+        text-align: center;
+    }
+
+    .recipient-btn {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imagem-banner {
+      border-radius: 10px;
+    }
+
+        /* Monitoramento remoto */
+
+    .sub-container-mid h2 {
+        font-size: 1.8em;
+    }
+
+    .sub-container-mid p {
+        font-size: 1em;
+    }
+
+     .sub-col-items-left,
+     .sub-col-items-right {
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+        padding: 25px;
+        border-radius: 10px;
+        max-width: none;
+    }
+    
+    .sub-col-items h3 {
+        font-size: 1.2em;
+    }
+
+    .sub-col-items p {
+        font-size: 0.9em;
+    }
+
+    .cols-4 {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .sub-col {
+      gap: 16px;
+    }
+
+
+ /*Financeiras*/
+
+.financeiras-content {
+    flex-direction: column;
+}
+
+.financeiras-container-left h2 {
+    font-size: 1.8em;
+    line-height: 120%;
+    text-align: center;
+}
+
+.financeiras-container-left p {
+    font-size: 1em;
+    line-height: 150%;
+    text-align: center;
+}
+
+.left-box h3,
+.right-box h3 {
+    font-size: 1em;
+    text-align: center;
+}
+
+.left-box p,
+.right-box p {
+    font-size: 0.9em;
+    line-height: 150%;
+}
+
+ /*agendamento*/
+
+.agendamento-content {
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.sub-container-left h2 {
+  font-size: 1.8em;
+  text-align: center;
+}
+
+.sub-container-left p {
+  font-size: 1em;
+  text-align: center;
+}
+
+}

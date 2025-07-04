@@ -1,0 +1,129 @@
+@media (max-width: 768px) {
+  
+  .banner-home-index {
+    padding: 40px 20px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+  }
+
+  .banner-content-index {
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .banner-content-index h2 {
+    font-size: 2em;
+  }
+
+  .banner-content-index p {
+    font-size: 0.95rem;
+  }
+
+  .buttons-index {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .btn-index {
+    width: 100%;
+    text-align: center;
+  }
+
+  
+
+  .btn-login {
+    width: 100px;
+    height: 34px;
+    padding: 5px 15px;
+  }
+  .container{
+    padding: 0 10px;
+  }
+
+  .language-selector {
+    font-size: 14px;
+    gap: 4px;
+  }
+  .second-section,
+  .third-section
+   {
+    padding: 40px 0 !important;;
+}
+
+.first-section{
+  padding: 40px 10px;
+}
+
+  /*First-section*/
+
+
+  .first-section-content {
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #11D3D3;
+    border-radius: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .first-section-left h1 {
+    font-size: 2.5em;
+    text-align: center;
+  }
+
+  .first-section-right p {
+    font-size: 1em;
+    line-height: 150%;
+    text-align: center;
+  }
+
+  .first-section-right-btn {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /*Outras seções*/
+
+  .second-section-left h2,
+  .third-section-left h2 {
+    font-size: 2.2em;
+    line-height: 120%;
+    text-align: center;
+}
+  .second-section-right p,
+  .third-section-left p {
+    font-size: 1em;
+    line-height: 150%;
+    text-align: center;
+  }
+
+    .second-section-content {
+    justify-content: center;
+    align-items: center;
+  }
+
+    .third-section-content {
+        flex-wrap: wrap;
+    }
+
+    .third-section-left,
+    .third-section-right {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .third-section-right-img {
+      max-width: 768px;
+      max-height: auto;
+      width: 100%;
+      height: auto;
+      object-fit: cover !important;
+    }
+}

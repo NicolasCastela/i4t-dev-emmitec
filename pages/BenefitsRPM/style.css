@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    padding: 0;
+    color: #4C666D;
+}
+
+.body-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 156px;
+    width: 100%;
+}
+
+.n-container {
+    width: 100%;
+    max-width: 1128px;
+    padding: 112px 0px;
+}
+
+.first-section {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+.header-container-left,
+.sub-container-left,
+.sub-container-right {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 524px;
+    width: 100%;
+}
+
+.sub-container-left{
+    justify-content: center;
+}
+
+.recipient-btn {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+#header-first-btn,
+#header-second-btn {
+    height: 48px;
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#header-first-btn {
+    width: 135px;
+    background-color: #11D3D3;
+    color: #fff;
+    border: none;
+}
+
+#header-first-btn:hover {
+    background-color: #00b7c3;
+}
+
+#header-second-btn {
+    background: none;
+    border: 1px solid #11D3D3;
+    color: #4C666D;
+}
+
+#header-second-btn:hover {
+    background-color: #235f74;
+    color: #fff;
+}
+
+.imagem-banner {
+    width: 100%;
+    max-height: 634px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.n-container .image {
+    padding-bottom: 0px;
+}
+
+.image-thrid-section {
+    width: 100%;
+    max-width: 100%;
+    height: 574px;
+    object-fit: contain;
+}
+
+.image-fourth-section {
+    width: 100%;
+    height: 349.33px;
+    object-fit: cover;
+}
+
+/* Monitoramento remoto */
+
+.header-container-left h1 {
+    font-size: 3.5em;
+    line-height: 120%;
+}
+
+.sub-container-right p {
+    font-size: 1.125em;
+    line-height: 150%;
+}
+
+.sub-container-mid {
+    width: 100%;
+    max-width: 768px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.sub-container-mid h2 {
+    font-size: 2.5em;
+    line-height: 120%;
+}
+
+.sub-container-mid p {
+    font-size: 1.125em;
+    line-height: 150%;
+}
+
+.container-person {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cols-4 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: space-between;
+}
+
+.sub-col {
+    flex: 1 1 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding: 0;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.sub-col img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.sub-division-text {
+    display: flex;
+    gap: 16px;
+    width: 100%;
+    padding: 8px 0;
+}
+
+.sub-division-text .left-box,
+.sub-division-text .right-box {
+    flex: 1 1 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: flex-start;
+}
+
+.last-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-image img {
+    border-radius: 10px;
+}
+
+#financeiras-img {
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.sub-col {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.sub-col-items {
+    display: flex;
+    object-fit: cover;
+    border: 2px solid black;
+}
+
+.sub-col-items-left,
+.sub-col-items-right {
+    display: flex;
+    max-width: 315px;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    object-fit: cover;
+    align-items: center;
+    gap: 21.33px;
+    text-align: center;
+}
+
+.sub-col-items h3 {
+    font-size: 1.5em;
+}
+
+.vector-box {
+    width: 36px !important;
+    object-fit: contain;
+}
+
+.financeiras-content {
+    display: flex;
+    gap: 32px;
+}
+
+.financeiras-container-left {
+    gap: 32px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.financeiras-container-left h2 {
+    font-size: 2.5em;
+    line-height: 120%;
+}
+
+.financeiras-container-left,
+.financeiras-container-right {
+    flex: 1 1 400px;
+}
+
+.financeiras-container-left p {
+    font-size: 1.125em;
+    line-height: 150%;
+}
+
+.left-box h3 {
+    font-size: 1.25em;
+}
+
+.left-box p {
+    font-size: 1.125em;
+    line-height: 150%;
+}
+
+.agendamento-content {
+    display: flex;
+    justify-content: center;
+}
+
+.sub-container-left,
+.sub-container-right {
+    flex: 1 1 400px;
+}
+
+.sub-container-left h2 {
+    font-size: 3em;
+    line-height: 120%;
+}
+
+.sub-container-left p {
+    font-size: 1.125em;
+    line-height: 150%;
+}
+
+
+/* Adicione ao seu style.css ou style-components.css */

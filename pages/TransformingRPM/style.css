@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  padding: 0;
+  color: #4C666D;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 64px;
+  width: 100%;
+}
+
+.header-main {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  padding: 112px 0px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: center;
+}
+
+.header-items {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.header-title {
+  font-size: 3em;
+  line-height: 120%;
+  font-weight: 700;
+  text-align: center;
+  color: #4C666D;
+}
+
+.header-items span {
+  font-size: 1.125em;
+  font-weight: 400;
+  line-height: 150%;
+  text-align: center;
+  color: #4C666D;
+}
+
+#header-first-btn {
+  cursor: pointer;
+  width: 135px;
+  height: 48px;
+  padding: 12px 24px;
+  border-radius: 10px;
+  border: none;
+  background-color: #11D3D3;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+#header-first-btn:hover {
+  background-color: #00b7c3;
+}
+
+.header-btn {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+#header-second-btn {
+  cursor: pointer;
+  height: 48px;
+  padding: 12px 24px;
+  border-radius: 10px;
+  border: none;
+  border: 1px solid #11D3D3;
+  background: none;
+  color: #4C666D;
+  font-weight: 700;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+#header-second-btn:hover {
+  background-color: #235f74;
+  color: #fff;
+}
+
+/* SECTION beneficios-monitoramento*/
+
+.beneficios-monitoramento {
+  display: flex;
+  justify-content: center;
+}
+
+.monitoramento-items {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.monitoramento-left,
+.monitoramento-right {
+  flex: 1 1 400px;
+  max-width: 100%;
+}
+
+.monitoramento-left {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.monitoramento-left img {
+  width: 100%;
+  height: 558.93px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.monitoramento-right {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.monitoramento-right-bottom {
+  display: flex;
+  gap: 24px;
+}
+
+.monitoramento-right-bottom .left,
+.monitoramento-right-bottom .right {
+  flex: 1 1 300px;
+}
+
+.monitoramento-right h3 {
+  font-size: 2.5em;
+  font-weight: 700;
+  line-height: 120%;
+  color: #4C666D;
+}
+
+.monitoramento-right span {
+  font-size: 1.125em;
+  font-weight: 400;
+  line-height: 150%;
+  color: #4C666D;
+}
+
+.monitoramento-right-bottom h4 {
+  font-size: 1.25em;
+  font-weight: 700;
+  line-height: 140%;
+  color: #4C666D;
+  margin-bottom: 16px;
+}
+
+.monitoramento-right-bottom span {
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 150%;
+  color: #4C666D;
+}
+
+/* SECTION beneficios-medicos*/
+
+.beneficios-medicos {
+  display: flex;
+  justify-content: center;
+}
+
+.medicos-items {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  align-items: center;
+}
+
+.medicos-content-left,
+.medicos-content-right {
+  flex: 1 1 500px;
+}
+
+.medicos-content-left {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.medicos-content-left-top {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.medicos-content-left-top h3 {
+  font-size: 2.5em;
+  line-height: 120%;
+  font-weight: 700;
+  color: #4C666D;
+}
+
+.medicos-content-left-top span {
+  font-size: 1.125em;
+  color: #4C666D;
+  line-height: 150%;
+  font-weight: 400;
+}
+
+.medicos-content-left-bottom .top {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card-top,
+.card-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  gap: 24px;
+}
+
+.box-items {
+  flex: 1 1 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.box-items h4 {
+  font-size: 1.125em;
+  font-weight: bold;
+  color: #4C666D;
+}
+
+.box-items span {
+  font-size: 1em;
+  color: #4C666D;
+  line-height: 1.5;
+}
+
+.medicos-content-right img {
+  width: 100%;
+  height: 558.93px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* SECTION beneficios-hospitais*/
+
+.beneficios-hospitais {
+  display: flex;
+  justify-content: center;
+}
+
+.hospitais-items {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  gap: 80px;
+  align-items: center;
+}
+
+.hospitais-content-left,
+.hospitais-content-right {
+  flex: 1 1 500px;
+}
+
+.hospitais-content-left {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.hospitais-content-left-top {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.hospitais-content-left-top h3 {
+  font-size: 2.5em;
+  line-height: 120%;
+  font-weight: 700;
+  color: #4C666D;
+}
+
+.hospitais-content-left-top span {
+  font-size: 1.125em;
+  color: #4C666D;
+  line-height: 150%;
+  font-weight: 300;
+}
+
+.hospitais-content-left-bottom .top {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card-top,
+.card-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  gap: 24px;
+}
+
+.box-items {
+  flex: 1 1 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.box-items h4 {
+  font-size: 1.125em;
+  font-weight: bold;
+  color: #4C666D;
+}
+
+.box-items span {
+  font-size: 1em;
+  color: #4C666D;
+  line-height: 1.5;
+}
+
+.hospitais-content-right img {
+  width: 100%;
+  height: 558.93px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* SECTION beneficios-pacientes*/
+
+.beneficios-pacientes {
+  display: flex;
+  justify-content: center;
+}
+
+.pacientes-items {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  align-items: center;
+}
+
+.pacientes-content-left,
+.pacientes-content-right {
+  flex: 1 1 500px;
+}
+
+.pacientes-content-left {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.pacientes-content-left-top {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.pacientes-content-left-top h3 {
+  font-size: 2.5em;
+  line-height: 120%;
+  font-weight: 700;
+  color: #4C666D;
+}
+
+.pacientes-content-left-top span {
+  font-size: 1.125em;
+  color: #4C666D;
+  line-height: 150%;
+  font-weight: 400;
+}
+
+.pacientes-content-left-bottom .top {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card-top,
+.card-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  gap: 24px;
+}
+
+.box-items {
+  flex: 1 1 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.box-items h4 {
+  font-size: 1.125em;
+  font-weight: bold;
+  color: #4C666D;
+}
+
+.box-items span {
+  font-size: 1em;
+  color: #4C666D;
+  line-height: 1.5;
+}
+
+.pacientes-content-right img {
+  width: 100%;
+  height: 558.93px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.pacientes-btn {
+  margin-top: 32px;
+}
